@@ -1,0 +1,528 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'zh' Physical Memory: 3983 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker34
+-projectPath
+C:/Unity/2D_NewGame
+-logFile
+Logs/AssetImportWorker34.log
+-srvPort
+49603
+Successfully changed project path to: C:/Unity/2D_NewGame
+C:/Unity/2D_NewGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 263.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/2D_NewGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 810M (ID=0xfee)
+    Vendor:   
+    VRAM:     2009 MB
+    Driver:   24.21.13.9835
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017829 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 217.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.978 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.033950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 232.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.998 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 2.41 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 9.927200 ms (FindLiveObjects: 0.798600 ms CreateObjectMapping: 0.257000 ms MarkObjects: 8.240200 ms  DeleteObjects: 0.620000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scene/Menu.unity
+  artifactKey: Guid(a355b6243cd521a4f95665a7297264f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/Menu.unity using Guid(a355b6243cd521a4f95665a7297264f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a074ebe62a88b77e0db753eea942536') in 0.666893 seconds 
+  Import took 0.708975 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3932.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.6 MB.
+System memory in use after: 52.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 8033.850600 ms (FindLiveObjects: 174.166200 ms CreateObjectMapping: 0.549200 ms MarkObjects: 7781.859900 ms  DeleteObjects: 10.685700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24543.295052 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun(1).png
+  artifactKey: Guid(c35186ec6d9244e4a81db2944ad5e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun(1).png using Guid(c35186ec6d9244e4a81db2944ad5e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc189ff8cab0c734cfb06d9ff1f3339') in 36.449447 seconds 
+  Import took 37.357175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000962 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun(2).png
+  artifactKey: Guid(d1e6ca81ea9d5d94691bfdbd8341e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun(2).png using Guid(d1e6ca81ea9d5d94691bfdbd8341e1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee87b244e26ae069e526e845fdd2d4') in 0.157188 seconds 
+  Import took 0.198412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun(3).png
+  artifactKey: Guid(4bbdca28e5439af4588076b02da7a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun(3).png using Guid(4bbdca28e5439af4588076b02da7a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eae14b05fe8c7681537e9dcc9c11e2') in 0.127085 seconds 
+  Import took 0.175435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun(4).png
+  artifactKey: Guid(5d8604471f3f92940882c6911a25793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun(4).png using Guid(5d8604471f3f92940882c6911a25793f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90b651e87eceba2b1a2e5a8acd09da3') in 0.122130 seconds 
+  Import took 0.172502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Naruto assets/Naruto stand1.png
+  artifactKey: Guid(5ca76b1edd114524caf39eb6dd0db2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto stand1.png using Guid(5ca76b1edd114524caf39eb6dd0db2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d29e9cdedb8d631348d003538252c7') in 0.207588 seconds 
+  Import took 0.256840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun2.png
+  artifactKey: Guid(9d49e467a68def942a41ee34656c635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun2.png using Guid(9d49e467a68def942a41ee34656c635f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa28859efc2288b4668620d723cbbdc5') in 0.231036 seconds 
+  Import took 0.282445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/Naruto assets/Naruto stand1.png
+  artifactKey: Guid(5ca76b1edd114524caf39eb6dd0db2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto stand1.png using Guid(5ca76b1edd114524caf39eb6dd0db2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d29e9cdedb8d631348d003538252c7') in 0.047719 seconds 
+  Import took 0.112247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001876 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun(5).png
+  artifactKey: Guid(d330459bad8191644bf50ffe7b3e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun(5).png using Guid(d330459bad8191644bf50ffe7b3e5fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a63e16fbcad550a6d0d162690afa6b5') in 0.124902 seconds 
+  Import took 0.226945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun4.png
+  artifactKey: Guid(1187e7f9a36b8344aa8b1ce661929c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun4.png using Guid(1187e7f9a36b8344aa8b1ce661929c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d02e9b0e5be2fc08e8d5cff8ce5f908') in 0.075256 seconds 
+  Import took 0.133418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun1.png
+  artifactKey: Guid(215329a173ee1c04e8c9d3640ad1d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun1.png using Guid(215329a173ee1c04e8c9d3640ad1d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124e42b8cef71b24be2751a63171e72f') in 0.129771 seconds 
+  Import took 0.141741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001021 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun3.png
+  artifactKey: Guid(5a58798651c08a44d9e4836fb1964977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun3.png using Guid(5a58798651c08a44d9e4836fb1964977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8394d208c04cc434f7db733bed18082a') in 0.094965 seconds 
+  Import took 0.137367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.549514 seconds.
+  path: Assets/Naruto assets/Naruto walk1.png
+  artifactKey: Guid(2ebbfc276cd57d042b53e5bfd0673ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto walk1.png using Guid(2ebbfc276cd57d042b53e5bfd0673ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5100996c40d13308c05820a6813b21cf') in 2.049265 seconds 
+  Import took 2.135716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480486 seconds.
+  path: Assets/Naruto assets/Naruto walk2.png
+  artifactKey: Guid(9fa873f9bd09ad046b30e63d043cd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto walk2.png using Guid(9fa873f9bd09ad046b30e63d043cd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13058186057b0e7961e84af481ce9e19') in 0.806858 seconds 
+  Import took 0.951374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.201565 seconds.
+  path: Assets/Naruto assets/Naruto run1.png
+  artifactKey: Guid(12937dc56990c8941899ffd7fbd0b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto run1.png using Guid(12937dc56990c8941899ffd7fbd0b708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a310c7f55069ab75d8c30292edfbd0f3') in 0.202919 seconds 
+  Import took 0.273416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.047234 seconds.
+  path: Assets/Naruto assets/Naruto run2.png
+  artifactKey: Guid(0caedf4de7f137e479cdd513e2775288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto run2.png using Guid(0caedf4de7f137e479cdd513e2775288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9721f205a07960f43e377eb726e5cba6') in 0.177148 seconds 
+  Import took 0.239897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.731900 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun10.png
+  artifactKey: Guid(72facc7ee01237e4384d93d36c017c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun10.png using Guid(72facc7ee01237e4384d93d36c017c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3586b4bcc13633c43bbdf68cbdbf6b5f') in 0.263521 seconds 
+  Import took 0.435345 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.711603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 9.511000 ms (FindLiveObjects: 0.865700 ms CreateObjectMapping: 0.249600 ms MarkObjects: 7.965500 ms  DeleteObjects: 0.424200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1187.801142 seconds.
+  path: Assets/Animation/漩渦鳴人.controller
+  artifactKey: Guid(0035fdcd4c0c06340b6904d688cf1194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/漩渦鳴人.controller using Guid(0035fdcd4c0c06340b6904d688cf1194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28186fbc99e554e6686eacfb6492ecf') in 23.076964 seconds 
+  Import took 34.007544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.586837 seconds.
+  path: Assets/Animation/NarutoStand.anim
+  artifactKey: Guid(e6c380c8f069f5e4a82ae719fb6e8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/NarutoStand.anim using Guid(e6c380c8f069f5e4a82ae719fb6e8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503db31ccf584d64fe31c7b5567a18ef') in 0.953597 seconds 
+  Import took 1.012784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 489.195709 seconds.
+  path: Assets/Animation/主角.controller
+  artifactKey: Guid(7b0138776af99874c9086b0bf5336dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/主角.controller using Guid(7b0138776af99874c9086b0bf5336dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0590e9e5d28b899d952a35a09c97f577') in 0.477417 seconds 
+  Import took 0.560081 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 44.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 88.829100 ms (FindLiveObjects: 1.418500 ms CreateObjectMapping: 0.420300 ms MarkObjects: 50.141200 ms  DeleteObjects: 36.842800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 767.333558 seconds.
+  path: Assets/Naruto assets/Naruto stand2.png
+  artifactKey: Guid(ef420b90ba6602b46a03190ef64e8ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto stand2.png using Guid(ef420b90ba6602b46a03190ef64e8ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799837685ca183e46209c7edd9c47122') in 15.037122 seconds 
+  Import took 16.365289 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.608665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.099 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 11.397800 ms (FindLiveObjects: 0.848300 ms CreateObjectMapping: 0.278600 ms MarkObjects: 9.856200 ms  DeleteObjects: 0.408300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.611460 seconds.
+  path: Assets/Naruto assets/Naruto stand3.png
+  artifactKey: Guid(4e09b438964e3604682a9ef170049781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto stand3.png using Guid(4e09b438964e3604682a9ef170049781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e103364244f16f8db3285e47e7b5de') in 0.600537 seconds 
+  Import took 0.668135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.239423 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.343 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 8.854000 ms (FindLiveObjects: 0.789400 ms CreateObjectMapping: 0.239200 ms MarkObjects: 7.165000 ms  DeleteObjects: 0.654900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 747.690122 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun6.png
+  artifactKey: Guid(c21555d3667579042af2571aea9d9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun6.png using Guid(c21555d3667579042af2571aea9d9315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48ab49e74a45276ebec4923117a0a8c') in 3.451870 seconds 
+  Import took 3.896619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047492 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun7.png
+  artifactKey: Guid(3636533b822497042a7e5108860b291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun7.png using Guid(3636533b822497042a7e5108860b291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3765dfb6e4422ba53d7f103e4160e3') in 0.559945 seconds 
+  Import took 0.671907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372882 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun8.png
+  artifactKey: Guid(8993c1c494190e94891231e1be0c3de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun8.png using Guid(8993c1c494190e94891231e1be0c3de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506aa17c8f27791ec70f0efde0596bdb') in 1.327962 seconds 
+  Import took 1.607438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174794 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun16.png
+  artifactKey: Guid(82df3f5b1349c0040b03d2301b1cc5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun16.png using Guid(82df3f5b1349c0040b03d2301b1cc5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a8a3f895238dbd159d6aa30079cc62') in 1.170836 seconds 
+  Import took 1.377070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050767 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun13.png
+  artifactKey: Guid(f6fb02840bb3f4c409b6945f0b9685f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun13.png using Guid(f6fb02840bb3f4c409b6945f0b9685f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1481c69d397931029d6c33a168676760') in 0.911145 seconds 
+  Import took 1.030671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001179 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun15.png
+  artifactKey: Guid(e2af4dffe52340e4eacac76d49bc0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun15.png using Guid(e2af4dffe52340e4eacac76d49bc0471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3973cee278b58a7a7529bca576b004') in 0.865198 seconds 
+  Import took 1.082921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084178 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun14.png
+  artifactKey: Guid(be7af5080fee5e240b1d3baa61cc9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun14.png using Guid(be7af5080fee5e240b1d3baa61cc9a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546cbcf7a716b49159bdff89636a7941') in 0.715684 seconds 
+  Import took 0.815796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002217 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun19.png
+  artifactKey: Guid(020a225cf79ec6e4eb00edfcc3445f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun19.png using Guid(020a225cf79ec6e4eb00edfcc3445f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6770b54d7064cd0ac5ad0445614f3334') in 0.951125 seconds 
+  Import took 0.993163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun17.png
+  artifactKey: Guid(1b02a571cbc7d0d4890761299e225880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun17.png using Guid(1b02a571cbc7d0d4890761299e225880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc57aa949747e5b20f145d6a78b5ebd8') in 1.140428 seconds 
+  Import took 1.322501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418386 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun11.png
+  artifactKey: Guid(c1cacf0e702696348971fae71b5f7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun11.png using Guid(c1cacf0e702696348971fae71b5f7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67baab88b981344a748749ac4c9725d6') in 0.862202 seconds 
+  Import took 0.885730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074049 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun9.png
+  artifactKey: Guid(57f50ffa652c10d44a2a18a3ca660096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun9.png using Guid(57f50ffa652c10d44a2a18a3ca660096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9636ad1ae11232826eecdf77744eb2f') in 0.738096 seconds 
+  Import took 0.812014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002249 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun5.png
+  artifactKey: Guid(0fa521df6aabff54fbfc21b4bfd4e310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun5.png using Guid(0fa521df6aabff54fbfc21b4bfd4e310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc801275d863f9ad460880ad04388bd') in 0.366680 seconds 
+  Import took 0.551383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001715 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun12.png
+  artifactKey: Guid(38a42acec149e974bab1f528f4c99a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun12.png using Guid(38a42acec149e974bab1f528f4c99a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3799825457d4ad39b2dde787362c3cd') in 1.162697 seconds 
+  Import took 1.262871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun20.png
+  artifactKey: Guid(2ae2a0c4a8f5d59418ea5e1b18fe6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun20.png using Guid(2ae2a0c4a8f5d59418ea5e1b18fe6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea8c38f93427c75b81fbef5977b350') in 1.170091 seconds 
+  Import took 1.525593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050412 seconds.
+  path: Assets/Naruto assets/Naruto Orasengun18.png
+  artifactKey: Guid(00c476abe560cc14984f4006e4f9fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Naruto assets/Naruto Orasengun18.png using Guid(00c476abe560cc14984f4006e4f9fee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107569314c8dcd0f68b645c8b1116030') in 1.632178 seconds 
+  Import took 1.823710 seconds .
+
