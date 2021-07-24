@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1083; Version 2009; 64bit' Language: 'zh' Physical Memory: 3983 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 3983 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Unity/2D_NewGame
 -logFile
 Logs/AssetImportWorker22.log
 -srvPort
-49603
+62298
 Successfully changed project path to: C:/Unity/2D_NewGame
 C:/Unity/2D_NewGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 237.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 225.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -40,13 +40,13 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016285 seconds.
+Registered in 0.013859 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 213.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 187.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.434 seconds
+- Completed reload, in  5.861 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030729 seconds.
+Registered in 0.027184 seconds.
