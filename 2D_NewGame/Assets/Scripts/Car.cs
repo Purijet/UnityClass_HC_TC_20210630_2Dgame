@@ -94,6 +94,10 @@ public class Car : MonoBehaviour
 
         // 練習取得欄位 Get
         print(brand);
+        // 練習設定欄位 Set
+        windowSky = true;
+        cc = 5000;
+        weight = 9.9f;
 
         // 呼叫方法語法：方法名稱();
         Drive50();
@@ -110,7 +114,7 @@ public class Car : MonoBehaviour
     // 更新事件：大約一秒 60 次、60FPS、處理物件移動或著監聽玩家輸入
     private void Update()
     {
-        print("我在 update 內 @3@");
+        // print("我在 update 內 @3@");
     }
     #endregion
 

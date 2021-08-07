@@ -123,6 +123,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &98462667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7191129967355083703, guid: c28c277f0a6f01e43afe2f93534ca439, type: 3}
+  m_PrefabInstance: {fileID: 138517179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &98462668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98462667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c11f12be890c184187b09d4ed91db4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 3.5
+  cc: 2000
+  brand: "\u8CD3\u58EB"
+  windowSky: 1
+  "\u8F2A\u80CE\u6578\u91CF": 4
+  wheelCount: 0
+  height: 1.5
+  color1: {r: 0, g: 0, b: 0, a: 0}
+  red: {r: 1, g: 0, b: 0, a: 1}
+  yellow: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorCustom1: {r: 0.5, g: 0.5, b: 0, a: 1}
+  colorCustom2: {r: 0.5, g: 0, b: 0.5, a: 0.5}
+  v2: {x: 0, y: 0}
+  v2Zero: {x: 0, y: 0}
+  v2One: {x: 1, y: 1}
+  v2Up: {x: 0, y: 1}
+  v2Right: {x: 1, y: 0}
+  v2Custom: {x: -99.5, y: 100.5}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  kc: 0
+  forward: 100
+  attack: 323
+  goCamera: {fileID: 0}
+  traCar: {fileID: 0}
+  sprpicture: {fileID: 0}
 --- !u!1001 &138517179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -202,6 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334760359}
   - component: {fileID: 334760358}
+  - component: {fileID: 334760360}
   m_Layer: 0
   m_Name: "\u5357\u74DC\u8ECA"
   m_TagString: Untagged
@@ -274,6 +318,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334760360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334760357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b3af7fd43cd944ebe5809b923db404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: 10
+  b: 3
 --- !u!1 &934470332
 GameObject:
   m_ObjectHideFlags: 0
