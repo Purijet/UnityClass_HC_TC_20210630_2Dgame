@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -14,6 +15,25 @@ public class Player : MonoBehaviour
     public bool isGround;
     [Header("重力"), Range(0.01f, 1)]
     public float gravity = 0.1f;
+    [Header("攻擊冷卻"), Range(0, 5)]
+    public float cd = 2;
+
+    /// <summary>
+    /// 攻擊計時器
+    /// </summary>
+    private float timer;
+    /// <summary>
+    /// 是否攻擊
+    /// </summary>
+    private bool isAttack;
+
+    [Header("攻擊力"), Range(0, 1000)]
+    public float attack = 20;
+    [Header("死亡事件")]
+    public UnityEvent onDead;
+    [Header("音效區域")]
+    public AudioClip soundJump;
+    public AudioClip soundAttack;
 
     // 私人欄位不顯示
     // 開啟屬性面板除錯模式 Debug 可以看到私人欄位
@@ -50,6 +70,7 @@ public class Player : MonoBehaviour
         // 作用：取得此物件的 2D 剛體元件
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        aud = GetComponent<AudioSource>();
 
         hpMax = hp;
         textHp = GameObject.Find("文字血量").GetComponent<Text>();
@@ -175,23 +196,10 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGround)
         {
             rig.AddForce(new Vector2(0, jump));
+            aud.PlayOneShot(soundJump, Random.Range(0.7f, 1.1f));
         }
     }
 
-    [Header("攻擊冷卻"), Range(0, 5)]
-    public float cd = 2;
-
-    /// <summary>
-    /// 攻擊計時器
-    /// </summary>
-    private float timer;
-    /// <summary>
-    /// 是否攻擊
-    /// </summary>
-    private bool isAttack;
-
-    [Header("攻擊力"), Range(0, 1000)]
-    public float attack = 20;
     private void Attack()
     {
         // 如果 按下 左鍵 啟動觸發參數
@@ -200,6 +208,7 @@ public class Player : MonoBehaviour
         {
             isAttack = true;
             ani.SetTrigger("攻擊觸發");
+            aud.PlayOneShot(soundAttack, Random.Range(0.7f, 1.1f));
 
             // 判定攻擊區域是否有打到 8 號敵人圖層物件
             Collider2D hit = Physics2D.OverlapBox(transform.position +
@@ -249,6 +258,7 @@ public class Player : MonoBehaviour
     {
         hp = 0;                         // 血量歸零
         ani.SetBool("死亡開關", true);   // 死亡動畫
+        onDead.Invoke();                // 呼叫死亡事件
         enabled = false;                // 離開此腳本
     }
 

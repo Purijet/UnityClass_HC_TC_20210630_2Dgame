@@ -314,6 +314,9 @@ public class BaseEnemy : MonoBehaviour
         rig.velocity = Vector3.zero;                            // 加速度歸零
         rig.constraints = RigidbodyConstraints2D.FreezeAll;     // 剛體凍結全部
         DropProp();
+
+        TeleportManager.countAllEnemy--;        // 通知傳送管理將數量 -1
+
         enabled = false;
     }
 
