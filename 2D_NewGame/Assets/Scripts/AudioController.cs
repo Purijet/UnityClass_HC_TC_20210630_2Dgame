@@ -15,7 +15,7 @@ public class AudioController : MonoBehaviour
     /// <param name="volume"></param>
     public void SetVolumeBGM(float volume)
     {
-        mixer.SetFloat("VolumeBGM", volume);
+        mixer.SetFloat("volumeBGM", volume);
     }
 
     /// <summary>
@@ -24,6 +24,6 @@ public class AudioController : MonoBehaviour
     /// <param name="volume"></param>
     public void SetVolumeSFX(float volume)
     {
-        mixer.SetFloat("VolumeSFX", volume);
+        mixer.SetFloat("volumeSFX", volume);
     }
 }
